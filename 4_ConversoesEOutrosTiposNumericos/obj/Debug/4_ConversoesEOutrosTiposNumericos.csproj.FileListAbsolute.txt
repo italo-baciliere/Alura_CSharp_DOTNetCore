@@ -1,0 +1,7 @@
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\bin\Debug\4_ConversoesEOutrosTiposNumericos.exe.config
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\bin\Debug\4_ConversoesEOutrosTiposNumericos.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\bin\Debug\4_ConversoesEOutrosTiposNumericos.pdb
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\obj\Debug\4_ConversoesEOutrosTiposNumericos.csproj.CoreCompileInputs.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\obj\Debug\4_ConversoesEOutrosTiposNumericos.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\obj\Debug\4_ConversoesEOutrosTiposNumericos.pdb
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\4_ConversoesEOutrosTiposNumericos\obj\Debug\4_ConversoesEOutrosTiposNumericos.csprojAssemblyReference.cache

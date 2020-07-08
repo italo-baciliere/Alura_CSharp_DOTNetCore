@@ -1,0 +1,7 @@
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\bin\Debug\2_CreatingVariables.exe.config
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\bin\Debug\2_CreatingVariables.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\bin\Debug\2_CreatingVariables.pdb
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\obj\Debug\2_CreatingVariables.csprojAssemblyReference.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\obj\Debug\2_CreatingVariables.csproj.CoreCompileInputs.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\obj\Debug\2_CreatingVariables.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\2_CreatingVariables\obj\Debug\2_CreatingVariables.pdb

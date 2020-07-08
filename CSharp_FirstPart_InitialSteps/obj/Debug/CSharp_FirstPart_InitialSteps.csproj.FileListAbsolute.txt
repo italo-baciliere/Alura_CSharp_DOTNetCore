@@ -1,0 +1,7 @@
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\bin\Debug\CSharp_FirstPart_InitialSteps.exe.config
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\bin\Debug\CSharp_FirstPart_InitialSteps.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\bin\Debug\CSharp_FirstPart_InitialSteps.pdb
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\obj\Debug\CSharp_FirstPart_InitialSteps.csprojAssemblyReference.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\obj\Debug\CSharp_FirstPart_InitialSteps.csproj.CoreCompileInputs.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\obj\Debug\CSharp_FirstPart_InitialSteps.exe
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\CSharp_FirstPart_InitialSteps\obj\Debug\CSharp_FirstPart_InitialSteps.pdb
