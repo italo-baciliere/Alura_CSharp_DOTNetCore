@@ -1,0 +1,13 @@
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram.deps.json
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram.runtimeconfig.json
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram.runtimeconfig.dev.json
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram.dll
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/bin/Debug/netcoreapp3.1/MyFirstProgram.pdb
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.csprojAssemblyReference.cache
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.AssemblyInfoInputs.cache
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.AssemblyInfo.cs
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.csproj.CoreCompileInputs.cache
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.dll
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.pdb
+/home/baciliere/Documents/Alura/CSharp/MyFirstProgram/obj/Debug/netcoreapp3.1/MyFirstProgram.genruntimeconfig.cache

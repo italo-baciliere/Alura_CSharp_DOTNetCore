@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/baciliere/.dotnet/store/|arch|/|tfm|",
+      "/home/baciliere/.nuget/packages"
+    ]
+  }
+}
