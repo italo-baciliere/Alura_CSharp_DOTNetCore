@@ -1,7 +1,7 @@
 # Alura_CSharp_DOTNetCore
 
 ## SOBRE ESSE REPOSITÓRIO
-Repositório com os códigos e aprendizados desenvolvidos duranta a [formação .NET CORE](https://cursos.alura.com.br/formacao-dotnet) da [Alura Cursos Online](https://www.alura.com.br/).
+Repositório com os códigos e aprendizados desenvolvidos duranta a formação .NET CORE da [Alura Cursos Online](https://www.alura.com.br/).
 
 
 ## CONTEÚDO APRENDIDO COM A FORMAÇÃO .NET CORE
