@@ -1,0 +1,4 @@
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\ByteBank\05-ByteBank\obj\Debug\netcoreapp3.1\05-ByteBank.csprojAssemblyReference.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\ByteBank\05-ByteBank\obj\Debug\netcoreapp3.1\05-ByteBank.AssemblyInfoInputs.cache
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\ByteBank\05-ByteBank\obj\Debug\netcoreapp3.1\05-ByteBank.AssemblyInfo.cs
+C:\Users\italo\Espaço de Trabalho\03 - Cursos\0 - Alura\Alura_CSharp_DOTNetCore\ByteBank\05-ByteBank\obj\Debug\netcoreapp3.1\05-ByteBank.csproj.CoreCompileInputs.cache

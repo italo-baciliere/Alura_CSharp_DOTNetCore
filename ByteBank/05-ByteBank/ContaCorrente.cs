@@ -1,14 +1,14 @@
-﻿// using _05_ByteBank;
+﻿//using _05_ByteBank; //Não é preciso importar o namespace porque esse arquivo ja faz parte dele
 
 namespace _05_ByteBank
 {
     public class ContaCorrente
     {        
 
-        public string titular;
+        public Cliente titular;
         public int numeroAgencia;
         public int numero;
-        public double saldo;
+        public double saldo;        
 
         /*-----------------------------
         |   Função para subtrair um valor da conta da instância
