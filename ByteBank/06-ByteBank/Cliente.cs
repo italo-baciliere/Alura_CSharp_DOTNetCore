@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace _05_ByteBank
-/*
+namespace _06_ByteBank
+{
+    public class Cliente
+    /*
 -   É fácil definir o que é um "Cliente" porque estamos no domínio do ByteBank,
 - no qual o cliente do banco vai à agência, possui uma conta-corrente, faz saques, entres outros.
 -
@@ -17,11 +21,9 @@ namespace _05_ByteBank
 - do que pode conflitar com uma classe qualquer do dotNET ou do dotNET Framework. A solução
 - para esse problema é a utilização de namespace, que o Visual Studio fornece no código, por padrão.
 */
-{
-    public class Cliente
     {
-        public string nome;
-        public string cpf;
-        public string profissao;
+        public string Nome { get; set; }
+        public string CPF { get; set; }
+        public string Profissao { get; set; }
     }
 }
