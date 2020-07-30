@@ -6,7 +6,8 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 # PORQUE SALVEI ESSE PROJETO
 
-* Salvar o aprendizado 
+* Salvar o aprendizado
+* Documentação serve para futuras consultas, mas não menos inportante, serve para fixar o conhecimento. :)
 
 2. Objetivo de ter realizado o curso
 
@@ -26,7 +27,14 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
   - Variáveis e controle de fluxo
   - Condicionais e laços de repetição
   - Conheça os principais tipos de C#
-
+  
+  1. História e ecossistema da linguagem
+  2. Nosso primeiro programa e o Visual Studio
+  3. Variáveis numéricas
+  4. Variáveis de texto
+  5. Controle de fluxo com IF
+  6. Controle de fluxo com laços de repetição
+  
 
 ## Curso C# parte 2: Introdução à Orientação a Objetos
 
