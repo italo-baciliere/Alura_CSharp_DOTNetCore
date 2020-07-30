@@ -30,11 +30,30 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
     
 ### 2. Nosso primeiro programa e o Visual Studio
 ### 3. Variáveis numéricas
-4. Variáveis de texto
-5. Controle de fluxo com IF
-6. Controle de fluxo com laços de repetição
+### 4. Variáveis de texto
+### 5. Controle de fluxo com IF
+### 6. Controle de fluxo com laços de repetição
   
 
-## Curso C# parte 2: Introdução à Orientação a Objetos
+## C# parte 2: Introdução à Orientação a Objetos
 
-## Curso C# parte 3: Entendendo herança e interface
+
+## C# parte 3: Entendendo herança e interface
+
+    Reuse código com Herança e Composição
+    Entenda o que é Polimorfismo na prática
+    Implemente Interface e métodos abstratos
+    Aprenda sobrescrita de métodos
+    Use os modificadores virtual, abstract e override
+    Conheça o modificador de visibilidade protected
+
+### 1. Conhecendo o problema do cliente
+
+* Toda aplicação .NET é escrita em uma linguagem compilada para o código intermediário MSIL (Microsoft intermediate language);    
+* O .NET Framework é uma biblioteca utilizada pelas aplicações .NET;   
+* Podemos ter vários métodos com o mesmo nome, desde que possuam lista de argumentos diferentes! Estas são as **sobrecargas**.
+
+### 2. Herança
+### 3. Construtores e protected
+### 4. Mais herança e herança múltipla
+### 5. Interfaces
