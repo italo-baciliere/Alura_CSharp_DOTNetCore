@@ -5,16 +5,21 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 
 # CONTEÚDO APRENDIDO COM A FORMAÇÃO .NET CORE
-3. O que foi ensinado em todo o curso da Alura cursos Online - Capítulo por Capítulo
 
-## C# e Orientação a Objetos
-* Curso C# parte 1: Primeiros passos
+
+## C# parte 1: Primeiros passos
   
-  Uma breve explicação do C Shap e do .Net Core.
+  - Uma breve explicação do C Shap e do .Net Core.
+  - Compile e execute código C#
+  - Aprenda a usar o Visual Studio
+  - Variáveis e controle de fluxo
+  - Condicionais e laços de repetição
+  - Conheça os principais tipos de C#
 
-* Curso C# parte 2: Introdução à Orientação a Objetos
 
-* Curso C# parte 3: Entendendo herança e interface
+## Curso C# parte 2: Introdução à Orientação a Objetos
+
+## Curso C# parte 3: Entendendo herança e interface
 
 
 # PORQUE SALVEI ESSE PROJETO
