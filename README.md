@@ -18,16 +18,9 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 # CONTEÚDO APRENDIDO COM A FORMAÇÃO .NET CORE
 
-## C# parte 1: Primeiros passos
+## C# parte 1: Primeiros passos    
   
-  - Uma breve explicação do C Shap e do .Net Core.
-  - Compile e execute código C#
-  - Aprenda a usar o Visual Studio
-  - Variáveis e controle de fluxo
-  - Condicionais e laços de repetição
-  - Conheça os principais tipos de C#
-  
-1. História e ecossistema da linguagem
+### 1. História e ecossistema da linguagem
   
 * Toda aplicação .NET é escrita em uma linguagem compilada para o código intermediário MSIL (Microsoft intermediate language);    
 * O .NET Framework é uma biblioteca utilizada pelas aplicações .NET;   
@@ -35,8 +28,8 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 * O código MSIL é executado pela máquina virtual do .NET, a CLR (common language runtime);    
 * O just-in-time é uma parte da CLR que transforma MSIL em código de máquina, apenas em tempo de execução.        
     
-2. Nosso primeiro programa e o Visual Studio
-3. Variáveis numéricas
+### 2. Nosso primeiro programa e o Visual Studio
+### 3. Variáveis numéricas
 4. Variáveis de texto
 5. Controle de fluxo com IF
 6. Controle de fluxo com laços de repetição
