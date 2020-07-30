@@ -11,12 +11,7 @@ namespace ByteBank
         public void Register(Employee employee)
         {
             _bonusTotal += employee.GetBonificacao();
-        }
-
-        public void RegisterDirector(Director director)
-        {
-            _bonusTotal += director.GetBonificacao();
-        }
+        }        
 
         public double GetBonusTotal()
         {

@@ -8,8 +8,8 @@ namespace ByteBank.Employees
     {        
         public string Name { get; set; }
         public string CPF { get; set; }
-        public double Salary { get; set; }
-        
+        public double Salary { get; set; }        
+
         /*
          Como quem desenvolve, esperamos que o acesso a uma propriedade seja imediato. 
         Ou seja, sem custo de processamento do computador, 
@@ -19,9 +19,18 @@ namespace ByteBank.Employees
         Portanto, quando quisermos deixar claro que existe um processamento e que não é algo gratuito, 
         como o retorno de um campo
          */
-        public double GetBonificacao()
-        {            
-            return Salary * 0.10;
+        public virtual double GetBonificacao()
+        /*-----------------
+         *  VIRTUAL 
+         *-----------------
+         *  possibilita que uma classe filha e mais derivada, 
+         *  mude o comportamento desse método
+         *  
+         *  Pode ser utilizado também nos métodos Get E Set.
+         *  e.g: public virtual double Salary{ get; set;}
+         */
+        {
+            return Salary * 0.10;   
         }
 
     }
