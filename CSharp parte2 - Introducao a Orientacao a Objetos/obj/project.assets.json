@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\italo\\Espaço de Trabalho\\03 - Cursos\\0 - Alura\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\CSharp parte2 - Introducao a Orientacao a Objetos.csproj",
+      "projectUniqueName": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\CSharp parte2 - Introducao a Orientacao a Objetos.csproj",
       "projectName": "CSharp parte2 - Introducao a Orientacao a Objetos",
-      "projectPath": "C:\\Users\\italo\\Espaço de Trabalho\\03 - Cursos\\0 - Alura\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\CSharp parte2 - Introducao a Orientacao a Objetos.csproj",
+      "projectPath": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\CSharp parte2 - Introducao a Orientacao a Objetos.csproj",
       "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\italo\\Espaço de Trabalho\\03 - Cursos\\0 - Alura\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\obj\\",
+      "outputPath": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp parte2 - Introducao a Orientacao a Objetos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,32 +34,10 @@
         "netcoreapp3.1": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
-      }
+      "netcoreapp3.1": {}
     }
   }
 }

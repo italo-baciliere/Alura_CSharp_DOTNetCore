@@ -5,10 +5,30 @@ using System.Text;
 namespace ByteBank.Employees
 {
     public class Employee
-    {        
+    {
+        public static int TotalEmployees { get; private set; } // Use o modificador static para declarar um membro estático que pertença ao próprio tipo, em vez de um objeto específico.
+
         public string Name { get; set; }
-        public string CPF { get; set; }
-        public double Salary { get; set; }        
+        public string CPF { get; private set; }
+        public double Salary { get; protected set; } // Permite o acesso para classes derivadas
+
+
+
+        public Employee(double salary, string cpf)
+        {
+            Salary = salary;
+            CPF = cpf;
+            TotalEmployees++; // Contador de quantidade de funcionários.
+        }
+
+
+
+        public virtual void IncreaseSalary()
+        {            
+            Salary *= 1.1;
+        }
+       
+
 
         /*
          Como quem desenvolve, esperamos que o acesso a uma propriedade seja imediato. 

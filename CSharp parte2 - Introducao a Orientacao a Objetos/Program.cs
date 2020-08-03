@@ -81,7 +81,7 @@ namespace CSharp_parte2___Introducao_a_Orientacao_a_Objetos
             conta.Saldo = 2000;
 
             // Ao realizar essa ação o método Get e utilizado
-            Console.WriteLine(conta);
+            Console.WriteLine(conta);            
         }
     }
 }

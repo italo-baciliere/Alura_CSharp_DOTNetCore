@@ -5,7 +5,21 @@ using System.Text;
 namespace ByteBank.Employees
 {
     public class Director : Employee // Herança -> Director herda tudo que a classe Employee tem
-    {        
+        // When instantiating a Director object, an Employee object is automatically instantiated.
+    {
+
+        public Director(double salary, string cpf) : base(5000, cpf) // Placing the mouse over the base word Visual studio shows that we are using Employee.Employee(doubel salary, string cpf)
+        /*
+         * Dizemos que o construtor Diretor() vai chamar a base, passando um Salary and CPF. 
+         */
+        {
+        }
+
+        public override void IncreaseSalary()
+        {
+            Salary *= 1.15;
+        }
+
         public override double GetBonificacao()
         /*-----------------
          *  OVERRIDE 
