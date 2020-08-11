@@ -7,26 +7,28 @@ namespace ByteBank
     class Program
     {
         static void Main(string[] args)
-        {
-            BonusManager bonusManager = new BonusManager();            
-            
-
-            Employee italo = new Employee(2100.00, "333.443.252-19");            
-            italo.Name = "Ítalo";                        
-            bonusManager.Register(italo);
-            Console.WriteLine(italo.GetBonificacao());
-            
-
-            Director Roberta = new Director(4000.00, "453.777.452-65");
-            Roberta.Name = "Roberta";                        
-            bonusManager.Register(Roberta);
-            Console.WriteLine(Roberta.GetBonificacao());
-            
-
-            Console.WriteLine($"Total de Bonus: {bonusManager.GetBonusTotal()}");            
-                        
-
+        {                                                
             Console.ReadLine();
         }
+    }
+
+
+
+    public void CalcularBonificação()
+    {
+        BonusManager bonusManager = new BonusManager();                
+
+
+        Designer pedro = new Designer("833.222.048-39");
+        pedro.Nome = "Pedro";
+
+        Director roberta = new Director("159.753.398-04");
+        roberta.Nome = "Roberta";
+
+        Auxiliar igor = new Auxiliar("981.198.778-53");
+        igor.Nome = "Igor";
+
+        AccountManager camila = new AccountManager("326.985.628-89");
+        camila.Nome = "Camila";
     }
 }

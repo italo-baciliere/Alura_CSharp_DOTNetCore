@@ -11,9 +11,13 @@ namespace ByteBank.Employees
         public string Name { get; set; }
         public string CPF { get; private set; }
         public double Salary { get; protected set; } // Permite o acesso para classes derivadas
+        
 
-
-
+        
+        /*--------------------------
+        |* Método Construtor
+        |---------------------------
+        */
         public Employee(double salary, string cpf)
         {
             Salary = salary;
