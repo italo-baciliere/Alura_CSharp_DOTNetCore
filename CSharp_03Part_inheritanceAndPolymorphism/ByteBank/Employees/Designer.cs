@@ -21,6 +21,4 @@ namespace ByteBank.Employees
             return Salary * 0.17;
         }
     }
-    {
-    }
 }

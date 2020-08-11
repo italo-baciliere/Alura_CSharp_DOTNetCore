@@ -4,7 +4,17 @@ using System.Text;
 
 namespace ByteBank.Employees
 {
-    public class Employee
+    public abstract class Employee
+    /* Uma classe abstrata não pode ser instanciada.
+     * A finalidade de uma classe abstrata é fornecer 
+     *  uma definição comum de uma classe base que pode 
+     *  ser compartilhada por várias classes derivadas.
+     * Por exemplo, uma biblioteca de classes pode definir
+     *  uma classe abstrata que serve como um parâmetro para 
+     *  muitas de suas funções e exige que os programadores 
+     *  que usam essa biblioteca forneçam sua própria implementação 
+     *  da classe, criando uma classe derivada.
+     */
     {
         public static int TotalEmployees { get; private set; } // Use o modificador static para declarar um membro estático que pertença ao próprio tipo, em vez de um objeto específico.
 
@@ -18,7 +28,7 @@ namespace ByteBank.Employees
         |* Método Construtor
         |---------------------------
         */
-        public Employee(double salary, string cpf)
+        public abstract Employee(double salary, string cpf)
         {
             Salary = salary;
             CPF = cpf;
@@ -27,12 +37,17 @@ namespace ByteBank.Employees
 
 
 
+        public abstract void IncreaseSalary();
+
+        public abstract double GetBonificacao();
+
+
+
+        /*
         public virtual void IncreaseSalary()
         {            
             Salary *= 1.1;
-        }
-       
-
+        }*/
 
         /*
          Como quem desenvolve, esperamos que o acesso a uma propriedade seja imediato. 
@@ -43,7 +58,7 @@ namespace ByteBank.Employees
         Portanto, quando quisermos deixar claro que existe um processamento e que não é algo gratuito, 
         como o retorno de um campo
          */
-        public virtual double GetBonificacao()
+        //public virtual double GetBonificacao()
         /*-----------------
          *  VIRTUAL 
          *-----------------
@@ -53,9 +68,9 @@ namespace ByteBank.Employees
          *  Pode ser utilizado também nos métodos Get E Set.
          *  e.g: public virtual double Salary{ get; set;}
          */
-        {
+        /*{
             return Salary * 0.10;   
-        }
+        }*/
 
     }
 }

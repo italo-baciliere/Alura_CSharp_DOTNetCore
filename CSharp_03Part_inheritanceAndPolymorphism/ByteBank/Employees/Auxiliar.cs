@@ -11,7 +11,7 @@ namespace ByteBank.Employees
 
         }
 
-        public override void IncreaseSalary()
+        /*public override void IncreaseSalary()
         {
             Salary *= 1.1;
         }
@@ -19,8 +19,6 @@ namespace ByteBank.Employees
         public override double GetBonificacao()
         {
             return Salary * 0.2;
-        }
-    }
-    {
+        }*/
     }
 }
