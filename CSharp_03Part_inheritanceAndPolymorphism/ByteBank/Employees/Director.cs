@@ -1,11 +1,11 @@
-﻿using System;
+﻿using ByteBank.Systems;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ByteBank.Employees
 {
-    class Director : Employee // Herança -> Director herda tudo que a classe Employee tem
-                              // When instantiating a Director object, an Employee object is automatically instantiated.
+    class Director : Authentic
     {
 
         public Director(double salary, string cpf) : base(5000, cpf) // Placing the mouse over the base word Visual studio shows that we are using Employee.Employee(doubel salary, string cpf)

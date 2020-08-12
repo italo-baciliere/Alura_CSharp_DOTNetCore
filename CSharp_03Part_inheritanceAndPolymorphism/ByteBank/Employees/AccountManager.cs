@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ByteBank.Systems;
 
 namespace ByteBank.Employees
 {
-    class AccountManager : Employee
+    class AccountManager : Authentic
     {
         public AccountManager(string cpf) : base(4000, cpf)
         /*

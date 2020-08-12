@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ByteBank.Employees
 {
-    class Designer : Employee
+    class Designer : Employee // Herança -> Director herda tudo que a classe Employee tem
+                              // When instantiating a Director object, an Employee object is automatically instantiated.
     {
         public Designer(string cpf) : base(3000, cpf)
         {

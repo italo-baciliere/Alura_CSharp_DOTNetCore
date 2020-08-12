@@ -28,7 +28,7 @@ namespace ByteBank.Employees
         |* Método Construtor
         |---------------------------
         */
-        public abstract Employee(double salary, string cpf)
+        public Employee(double salary, string cpf)
         {
             Salary = salary;
             CPF = cpf;
