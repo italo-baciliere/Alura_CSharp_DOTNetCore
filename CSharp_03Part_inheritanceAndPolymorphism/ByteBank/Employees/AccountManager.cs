@@ -5,8 +5,10 @@ using ByteBank.Systems;
 
 namespace ByteBank.Employees
 {
-    class AccountManager : Authentic
+    class AccountManager : AuthenticEmployee
     {
+
+
         public AccountManager(string cpf) : base(4000, cpf)
         /*
          * Aqui eu estou chamando o construtor 

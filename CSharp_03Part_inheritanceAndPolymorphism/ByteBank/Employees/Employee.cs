@@ -4,6 +4,17 @@ using System.Text;
 
 namespace ByteBank.Employees
 {
+
+    /*-----------------
+         *  VIRTUAL 
+         *-----------------
+         *  possibilita que uma classe filha e mais derivada, 
+         *  mude o comportamento desse método
+         *  
+         *  Pode ser utilizado também nos métodos Get E Set.
+         *  e.g: public virtual double Salary{ get; set;}
+    */
+
     public abstract class Employee
     /* Uma classe abstrata não pode ser instanciada.
      * A finalidade de uma classe abstrata é fornecer 
@@ -39,15 +50,7 @@ namespace ByteBank.Employees
 
         public abstract void IncreaseSalary();
 
-        public abstract double GetBonificacao();
 
-
-
-        /*
-        public virtual void IncreaseSalary()
-        {            
-            Salary *= 1.1;
-        }*/
 
         /*
          Como quem desenvolve, esperamos que o acesso a uma propriedade seja imediato. 
@@ -58,19 +61,6 @@ namespace ByteBank.Employees
         Portanto, quando quisermos deixar claro que existe um processamento e que não é algo gratuito, 
         como o retorno de um campo
          */
-        //public virtual double GetBonificacao()
-        /*-----------------
-         *  VIRTUAL 
-         *-----------------
-         *  possibilita que uma classe filha e mais derivada, 
-         *  mude o comportamento desse método
-         *  
-         *  Pode ser utilizado também nos métodos Get E Set.
-         *  e.g: public virtual double Salary{ get; set;}
-         */
-        /*{
-            return Salary * 0.10;   
-        }*/
-
+        public abstract double GetBonificacao();                       
     }
 }

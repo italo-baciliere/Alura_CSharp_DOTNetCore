@@ -6,10 +6,12 @@ namespace ByteBank.Systems
 {
     class InternalSystem    
     {        
-        // Classe de verificação de autenticação de um Authentic       
-        public bool Loginto(Authentic employee, string password)
+        /* 
+         * Classe de verificação de autenticação de um IAuthentic       
+         */
+        public bool Login(IAuthentic employee, string password)
         {
-            bool authenticatedUser = employee.Authenticate(password);
+            bool authenticatedUser = employee.Authentic(password);
 
             if (authenticatedUser)
             {
