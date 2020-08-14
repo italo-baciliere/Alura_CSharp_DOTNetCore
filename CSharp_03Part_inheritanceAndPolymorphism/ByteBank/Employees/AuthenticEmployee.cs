@@ -8,9 +8,14 @@ namespace ByteBank.Employees
 {
     public class AuthenticEmployee : Employee, IAuthentic
                                 /* : Employee
-                                Herdado a classe funcionário para continuar tendo todos os atributos */    
-    {
+                                Herdado a classe funcionário para continuar tendo todos os atributos */
+    
+    /*
+     * Classe utilizada para que precisam ser funcionários 
+     *  e precisa ser autenticado.
+     */
 
+    {
         public string Password { get; set; }
 
         public AuthenticEmployee(double salary, string cpf) : base (salary, cpf)

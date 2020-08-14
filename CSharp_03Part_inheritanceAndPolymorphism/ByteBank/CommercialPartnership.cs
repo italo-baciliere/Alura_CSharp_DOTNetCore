@@ -6,6 +6,14 @@ using System.Text;
 namespace ByteBank
 {
     public class CommercialPartnership : IAuthentic
+    /*
+     *-------------------------------
+     * Parceiro Comercial
+     * ------------------------------
+     *      
+     *  Required authentication, but not an Employee.
+     * 
+     */
     {
         public string Password { get; set; }
 
