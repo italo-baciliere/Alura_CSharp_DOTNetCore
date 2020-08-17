@@ -38,6 +38,17 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 ## C# parte 2: Introdução à Orientação a Objetos
 
+### 1. Nossa primeira classe
+
+* O recurso de possíveis soluções do Visual Studio, acessível pelo atalho CTRL+PONTO;
+* Podemos ter vários métodos com o mesmo nome, desde que possuam lista de argumentos diferentes! Estas são as **sobrecargas**.
+
+### 2. Tipos
+### 3. Comportamentos de classes
+### 4. Namespace composição e null
+### 5. Propriedades
+### 6. Construtores e membros estáticos
+
 
 ## C# parte 3: Entendendo herança e interface    
 
