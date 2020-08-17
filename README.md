@@ -18,6 +18,7 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 # CONTEÚDO APRENDIDO COM A FORMAÇÃO .NET CORE
 
+
 ## C# parte 1: Primeiros passos    
   
 ### 1. História e ecossistema da linguagem
@@ -53,5 +54,25 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 * **base:** A classe filha pode fazer referência aos membros da classe base com uso desta palavra reservada.
 
 ### 3. Construtores e protected
+
+* Construtor na classe base
+* Ordem de chamada dos construtores
+* Modificador de visibilidade protected
+* Visibilidade
+* Criando classes abstratas e métodos abstratos
+* Chamando o construtor da classe base
+* sobrecarga em construtores
+
 ### 4. Mais herança e herança múltipla
+
+* O sistema interno do ByteBank
+* Sobre Classes Abstratas e métodos abstratos
+* Classe autenticável
+
 ### 5. Interfaces
+
+* Problema da herança múltipla
+* Herdando de várias classes
+* Usando interfaces
+* Conceitos de Interfaces
+* Classes abstratas e interfaces  
