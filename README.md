@@ -194,7 +194,34 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 * Propagando exceções
 
 ### 2. Tratamento de exceções
-### 3.ArgumentException ParamName e nameof 
-### 4. Conhecendo o problema do cliente
-### 5. Conhecendo o problema do cliente
-### 6. Conhecendo o problema do cliente
+
+* Tratando várias exceções
+* Palavra reservada throw
+* Capturando exceções
+* Relançando exceções
+
+### 3. ArgumentException ParamName e nameof
+
+* Propriedades somente leitura
+* Lançando nossa exceção de argumento
+* ParamName no ArgumentException e operador nameof
+* Propriedade Somente-Leitura
+
+### 4. Criando exceções ricas
+
+* Criando nossa própria exceção
+* Tornando as exceções mais ricas
+* Criando tipos de exceção
+
+### 5. StackTrace e InnerException
+
+* Quando o StackTrace é preenchido
+* Usando inner exceptions
+* throw; vs. throw ex;
+
+### 6. Finally e using
+
+* Bloco finally
+* Liberando recursos
+* Açúcar sintático using
+* Conclusão
