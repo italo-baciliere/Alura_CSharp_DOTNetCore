@@ -22,7 +22,7 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 ## C# parte 1: Primeiros passos    
   
 ### 1. História e ecossistema da linguagem
-  
+
 * Toda aplicação .NET é escrita em uma linguagem compilada para o código intermediário MSIL (Microsoft intermediate language);    
 * O .NET Framework é uma biblioteca utilizada pelas aplicações .NET;   
 * Uma aplicação .NET é compilada para o MSIL;    
@@ -30,11 +30,56 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 * O just-in-time é uma parte da CLR que transforma MSIL em código de máquina, apenas em tempo de execução.        
     
 ### 2. Nosso primeiro programa e o Visual Studio
+
+* Estrutura de diretorios do Visual Studio
+* Entrada da aplicação
+* Compilar e executar
+
 ### 3. Variáveis numéricas
+
+* Criando variáveis
+* Criando uma variável numérica
+* Mão na massa: utilizando o tipo int e double
+* Criando variáveis double
+* Operações entre números
+* Conversao e outros tipos numericos
+*  Mão na massa: algumas conversões em C#
+* Imprimindo texto e números
+* Para saber mais: Type Casting
+
 ### 4. Variáveis de texto
+
+* Caracteres e textos
+* Praticando char e String
+* Declarando string e char
+* Concatenação de String e inteiros
+* Variáveis guardam valores
+
 ### 5. Controle de fluxo com IF
+
+* Trabalhando com IF
+* A condicional if
+* Variável booleana
+* Tipo bool
+* Operador lógico
+* Escopo
+* Mão na massa: Um pouco mais de if
+* Trabalhando com if
+* Declaração da variável
+* Escopo de variáveis
+* Alíquota com ifs
+* Comando switch
+
 ### 6. Controle de fluxo com laços de repetição
-  
+
+* Laço de repetição While
+* Laço de repetição For
+* Encadeando laços FOR
+* Transformando while em for
+* A palavra chave Break
+* Exercitando laços aninhados e break
+* Conclusão
+
 
 ## C# parte 2: Introdução à Orientação a Objetos
 
