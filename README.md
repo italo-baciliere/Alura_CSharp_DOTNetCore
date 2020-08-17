@@ -40,14 +40,62 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 ### 1. Nossa primeira classe
 
-* O recurso de possíveis soluções do Visual Studio, acessível pelo atalho CTRL+PONTO;
-* Podemos ter vários métodos com o mesmo nome, desde que possuam lista de argumentos diferentes! Estas são as **sobrecargas**.
+* Introdução
+* Nossa primeira classe
+* Classes e objetos
+* Benefícios da POO
+* Arquivos de código
+* Criando objetos   
 
 ### 2. Tipos
+
+* Usando nossa classe
+* Obtendo campos
+* Inicialização de variáveis
+* Definindo valor de atributos
+* Valores padrões
+* Tipos de referência e tipos de valor
+* Inicialização de booleanos
+* Referências de objetos
+
 ### 3. Comportamentos de classes
+
+* Nossa primeira funcao
+* Como chamar um método?
+* Metodo sem retorno
+* Metodos com varios argumentos
+* Sobre métodos
+* Métodos válidos
+* Onde usar o this?
+* Mão na massa: Criando métodos
+
 ### 4. Namespace composição e null
+
+* Entendendo namespaces
+* Importância dos namespaces
+* Diretivas using
+* Composicao de classes
+* Referências nulas
+* Problema não esperado
+* Extraindo o que é comum
+* Solucionando o problema no código
+
 ### 5. Propriedades
+
+* ObterSaldo e DefinirSaldo
+* Propriedades Get e Set
+* Produtividade com Get e Set
+* Getters e Setters
+* Público x Privado
+* Vantagens de campos privados
+
 ### 6. Construtores e membros estáticos
+
+* Construtores
+* Membros estáticos
+* Utilizando Construtores
+* Por que não soma?
+* Conclusão
 
 
 ## C# parte 3: Entendendo herança e interface    
