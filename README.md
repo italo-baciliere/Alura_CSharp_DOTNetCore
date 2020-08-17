@@ -180,3 +180,21 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 * Usando interfaces
 * Conceitos de Interfaces
 * Classes abstratas e interfaces  
+
+
+## C# parte 4: Entendendo Exceções
+
+### 1. Primeiros passos com exceções
+
+* Conhecendo exceções
+* Lidando com erros
+* Pilha de chamadas
+* Blocos Try Catch
+* Capturando exceções
+* Propagando exceções
+
+### 2. Tratamento de exceções
+### 3.ArgumentException ParamName e nameof 
+### 4. Conhecendo o problema do cliente
+### 5. Conhecendo o problema do cliente
+### 6. Conhecendo o problema do cliente
