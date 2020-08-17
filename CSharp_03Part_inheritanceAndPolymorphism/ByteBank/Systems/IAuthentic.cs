@@ -9,6 +9,9 @@ namespace ByteBank.Systems
     /*
      * Interface para funcionários que serão validados no sistema
      * 
+     * Interface é um contrato onde quem assina se responsabiliza por
+     *  implementar esses métodos (Comprir o contrato)
+     * 
      * Todos que implementam essa interface devem criar o seu próprio método Authentic
      *
      * Interface nos garante a existência de um método Authenticate(),
