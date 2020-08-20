@@ -22,8 +22,8 @@ namespace ByteBank
             }
             catch (DivideByZeroException excecao)
             /*
-             * Exceções são objetos! Vamos acessar seus atributos. Para isto, 
-             *  nomeie a referência para a exceção do tipo DivideByZeroException
+             * Exceções são objetos! Vamos acessar seus atributos.
+             * Para isto, nomeie a referência para a exceção do tipo DivideByZeroException
              *  
              * Agora podemos visitar as propriedades desta exceção
              */
