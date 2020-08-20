@@ -56,7 +56,7 @@ namespace ByteBank
             Agencia = agencia;
             Numero = numero;
 
-            OperationRate = 30 / AccountCreatedTotal;
+            //OperationRate = 30 / AccountCreatedTotal;
 
             AccountCreatedTotal++;
         }
