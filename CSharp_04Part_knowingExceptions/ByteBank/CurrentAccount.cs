@@ -7,32 +7,20 @@ namespace ByteBank
 {
     public class CurrentAccount
     {
+        /*--------------------
+         * Variables
+         *------------------*/
         public Client Titular { get; set; }
+
         public static int AccountCreatedTotal { get; private set; }
-        public static double OperationRate { get; private set; }
 
+        public static double OperationRate { get; private set; }                        
 
-        private int _agencia;
-        public int Agencia
-        {
-            get
-            {
-                return _agencia;
-            }
-            set
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
-
-                _agencia = value;
-            }
-        }
-        public int Numero { get; set; }
+        private readonly int _numero; // A readonly field cannot be assigned to (except in a constructor of the class in which the field is defined or a variable initializer)
+        public int Numero { get; }
+        public int Agencia { get; } // Internamente o compilador cria o campo privado, somente leitura, que é devolvido no get.
 
         private double _saldo = 100;
-
         public double Saldo
         {
             get
@@ -51,10 +39,14 @@ namespace ByteBank
         }
 
 
+
+        /*--------------------
+         * Métodos
+         *------------------*/
         public CurrentAccount(int agencia, int numero)
         {
             Agencia = agencia;
-            Numero = numero;
+            _numero = numero;
 
             //OperationRate = 30 / AccountCreatedTotal;
 
@@ -63,7 +55,7 @@ namespace ByteBank
 
 
         public bool Sacar(double valor)
-        {
+        {            
             if (_saldo < valor)
             {
                 return false;
