@@ -1,6 +1,7 @@
 ﻿using ByteBank.Employees;
 using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace ByteBank
@@ -45,6 +46,19 @@ namespace ByteBank
          *------------------*/
         public CurrentAccount(int agencia, int numero)
         {
+
+            if (agencia <= 0)
+            {
+                throw new ArgumentException("A agencia deve ser maior que 0.");
+            }
+
+            if (numero <= 0)
+            {
+                throw new ArgumentException("O número deve ser maior que 0.");
+            }
+
+            // || -> pipe --------------------------- Salvar
+
             Agencia = agencia;
             _numero = numero;
 

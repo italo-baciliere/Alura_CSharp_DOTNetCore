@@ -60,6 +60,20 @@ namespace ByteBank
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);
             }
+
+            try
+            {
+                CurrentAccount account = new CurrentAccount(0, 0);
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine("Ocorreu uma axceção do tipo ArgumentException");
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }            
         }
         
 
