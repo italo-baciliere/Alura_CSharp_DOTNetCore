@@ -44,23 +44,26 @@ namespace ByteBank
         /*--------------------
          * Métodos
          *------------------*/
-        public CurrentAccount(int agencia, int numero)
+        public CurrentAccount(int agencyNumber, int accountNumber)
         {
 
-            if (agencia <= 0)
+            if (agencyNumber <= 0)
             {
-                throw new ArgumentException("A agencia deve ser maior que 0.");
+                throw new ArgumentException("A agencia deve ser maior que 0.", nameof(agencyNumber));
+                // Nome do argumento que causou a exceção --> ParamName
+                // nameof --> retorna a variável como string
+                // nmaeof --> É um operador do C#
             }
 
-            if (numero <= 0)
+            if (accountNumber <= 0)
             {
-                throw new ArgumentException("O número deve ser maior que 0.");
+                throw new ArgumentException("O número deve ser maior que 0.", nameof(accountNumber)); // Nome do argumento que causou a exceção --> ParamName
             }
 
             // || -> pipe --------------------------- Salvar
 
-            Agencia = agencia;
-            _numero = numero;
+            Agencia = agencyNumber;
+            _numero = accountNumber;
 
             //OperationRate = 30 / AccountCreatedTotal;
 
