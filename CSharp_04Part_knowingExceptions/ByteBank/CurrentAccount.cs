@@ -49,8 +49,12 @@ namespace ByteBank
 
             if (agencyNumber <= 0)
             {
-                throw new ArgumentException("A agencia deve ser maior que 0.", nameof(agencyNumber));
-                // Nome do argumento que causou a exceção --> ParamName
+                throw new ArgumentException("A agencia deve ser maior que 0.", nameof(agencyNumber)); // output: "agencyNumber"
+                // ArgumenteException --> A exceção que é gerada quando um dos argumentos fornecidos para um método não é válido.
+                // A mensagem será retornada como uma parâmetro.
+                // Nome do argumento que causou a exceção --> ParamName.
+
+                // nameof --> Uma nameof expressão produz o nome de uma variável, tipo ou membro como a constante de cadeia de caracteres
                 // nameof --> retorna a variável como string
                 // nmaeof --> É um operador do C#
             }
@@ -63,11 +67,10 @@ namespace ByteBank
             // || -> pipe --------------------------- Salvar
 
             Agencia = agencyNumber;
-            _numero = accountNumber;
-
-            //OperationRate = 30 / AccountCreatedTotal;
+            _numero = accountNumber;            
 
             AccountCreatedTotal++;
+            OperationRate = 30 / AccountCreatedTotal;
         }
 
 
@@ -75,7 +78,8 @@ namespace ByteBank
         {            
             if (_saldo < valor)
             {
-                return false;
+                // Lançar uma exceção
+                throw new SaldoInsuficienteException($"Saldo insuficiente para o saque no valor de R${valor} reais.");
             }
 
             _saldo -= valor;

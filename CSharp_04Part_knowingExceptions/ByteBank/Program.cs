@@ -61,14 +61,24 @@ namespace ByteBank
                 Console.WriteLine(e.StackTrace);
             }
 
+
+
+
             try
             {
-                CurrentAccount account = new CurrentAccount(0, 0);
+                CurrentAccount account = new CurrentAccount(123, 5543);
+                account.Saldo = 50;
+                account.Sacar(1000);
             }
             catch (ArgumentException e)
             {
-                Console.WriteLine("Argumento: " + e.ParamName);
-                Console.WriteLine("Ocorreu uma axceção do tipo ArgumentException");
+                Console.WriteLine("Argumento: " + e.ParamName); // ParamName --> acessa o parametro nameof que causou a exceção
+                Console.WriteLine("Ocorreu uma exceção do tipo ArgumentException");
+                Console.WriteLine(e.Message);
+            }
+            catch (SaldoInsuficienteException e)
+            {
+                Console.WriteLine("Exceção do tipo SaldoInsuficienteException.");
                 Console.WriteLine(e.Message);
             }
             catch (Exception e)
