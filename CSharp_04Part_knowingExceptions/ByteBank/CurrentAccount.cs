@@ -15,7 +15,7 @@ namespace ByteBank
 
         public static int AccountCreatedTotal { get; private set; }
 
-        public static double OperationRate { get; private set; }                        
+        public static double OperationRate { get; private set; }                     
 
         private readonly int _numero; // A readonly field cannot be assigned to (except in a constructor of the class in which the field is defined or a variable initializer)
         public int Numero { get; }
@@ -73,13 +73,17 @@ namespace ByteBank
             OperationRate = 30 / AccountCreatedTotal;
         }
 
-
         public bool Sacar(double valor)
-        {            
+        {
+            if (valor < 0)
+            {
+                throw new ArgumentException($"Valor inválido para o saque.", nameof(valor));
+            }
+
             if (_saldo < valor)
             {
                 // Lançar uma exceção
-                throw new SaldoInsuficienteException($"Saldo insuficiente para o saque no valor de R${valor} reais.");
+                throw new SaldoInsuficienteException(_saldo, valor); // ($"Saldo insuficiente para o saque no valor de R${valor} reais.");
             }
 
             _saldo -= valor;
@@ -92,16 +96,15 @@ namespace ByteBank
         }
 
 
-        public bool Transferir(double valor, CurrentAccount contaDestino)
+        public void Transferir(double valor, CurrentAccount contaDestino)
         {
-            if (_saldo < valor)
+            if (valor < 0)
             {
-                return false;
-            }
+                throw new ArgumentException($"Valor inválido para a transferência.", nameof(valor));
+            }            
 
             _saldo -= valor;
-            contaDestino.Depositar(valor);
-            return true;
+            contaDestino.Depositar(valor);            
         }
     }
 }

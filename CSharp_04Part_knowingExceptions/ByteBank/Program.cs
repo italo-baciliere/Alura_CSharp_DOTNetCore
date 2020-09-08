@@ -69,6 +69,9 @@ namespace ByteBank
                 CurrentAccount account = new CurrentAccount(123, 5543);
                 account.Saldo = 50;
                 account.Sacar(1000);
+
+                CurrentAccount account2 = new CurrentAccount(432, 63653);
+                account2.Transferir(-10, account);
             }
             catch (ArgumentException e)
             {
@@ -77,7 +80,7 @@ namespace ByteBank
                 Console.WriteLine(e.Message);
             }
             catch (SaldoInsuficienteException e)
-            {
+            {                
                 Console.WriteLine("Exceção do tipo SaldoInsuficienteException.");
                 Console.WriteLine(e.Message);
             }
