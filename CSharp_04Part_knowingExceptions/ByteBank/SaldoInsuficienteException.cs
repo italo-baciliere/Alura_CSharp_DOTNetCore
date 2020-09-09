@@ -9,6 +9,10 @@ namespace ByteBank
      */ 
 
     public class SaldoInsuficienteException : Exception
+    /*
+     * Utilizamos o sufixo <Exception> para facilitar o entendimento que é uma exceção
+     * Toda excecão  deve derivar do tipo Exception
+    */
     {
 
         /*--------------
