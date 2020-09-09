@@ -39,6 +39,8 @@ namespace ByteBank
             }
         }
 
+        public int ContadorSaquesNaoPermitidos { get; private set; }
+        public int ContadorTransferenciasNaoPermitidas { get; private set; }
 
 
         /*--------------------
@@ -49,6 +51,11 @@ namespace ByteBank
 
             if (agencyNumber <= 0)
             {
+                /*----------------------------------------
+                * throw -> lançando
+                *----------------------------------------         
+                *  Passa a exceção para adiante para alguém tratar ela.          
+                */
                 throw new ArgumentException("A agencia deve ser maior que 0.", nameof(agencyNumber)); // output: "agencyNumber"
                 // ArgumenteException --> A exceção que é gerada quando um dos argumentos fornecidos para um método não é válido.
                 // A mensagem será retornada como uma parâmetro.
@@ -77,6 +84,7 @@ namespace ByteBank
         {
             if (valor < 0)
             {
+                ContadorSaquesNaoPermitidos++;
                 throw new ArgumentException($"Valor inválido para o saque.", nameof(valor));
             }
 
@@ -84,6 +92,7 @@ namespace ByteBank
             {
                 // Lançar uma exceção
                 throw new SaldoInsuficienteException(_saldo, valor); // ($"Saldo insuficiente para o saque no valor de R${valor} reais.");
+                // O throw new faz com que percamos a nossa antiga pilha de chamada
             }
 
             _saldo -= valor;
@@ -101,9 +110,18 @@ namespace ByteBank
             if (valor < 0)
             {
                 throw new ArgumentException($"Valor inválido para a transferência.", nameof(valor));
-            }            
+            }
 
-            _saldo -= valor;
+            try
+            {
+                Sacar(valor);
+            }
+            catch (SaldoInsuficienteException e)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw e;
+            }
+            
             contaDestino.Depositar(valor);            
         }
     }

@@ -12,6 +12,9 @@ namespace ByteBank
     /*
      * Utilizamos o sufixo <Exception> para facilitar o entendimento que é uma exceção
      * Toda excecão  deve derivar do tipo Exception
+     * 
+     * Exception é a classe pai/base de todas as
+     * exceções no C# e no .NET
     */
     {
 
@@ -35,7 +38,7 @@ namespace ByteBank
             // : this de um construtor que pede esse argumento.
         {
             Balance = balance;
-            this.WithdrawalAmount = withdrawalAmount;            
+            WithdrawalAmount = withdrawalAmount;            
         }
     }
 }
