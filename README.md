@@ -202,16 +202,17 @@ Repositório com os códigos e aprendizados desenvolvidos duranta a formação .
 
 ### 3. ArgumentException ParamName e nameof
 
-* Propriedades somente leitura
+* Propriedades somente leitura (readonly) com omissão do setter
 * Lançando nossa exceção de argumento
 * ParamName no ArgumentException e operador nameof
-* Propriedade Somente-Leitura
+* A classe de exceção ArgumentException, seus construtores e propriedades
 
 ### 4. Criando exceções ricas
 
 * Criando nossa própria exceção
 * Tornando as exceções mais ricas
 * Criando tipos de exceção
+* Convenções e Construtores comuns de execções
 
 ### 5. StackTrace e InnerException
 
