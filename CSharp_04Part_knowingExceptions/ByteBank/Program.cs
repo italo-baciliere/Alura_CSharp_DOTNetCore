@@ -13,8 +13,28 @@ namespace ByteBank
              *  Organizar a execução dos métodos e saber qual método está sendo executado.
              */
             CurrentAccount conta = new CurrentAccount(32436659, 4987);
-            
-            
+
+
+
+            try
+            {
+                CurrentAccount conta3 = new CurrentAccount(4871, 9789465);
+                CurrentAccount conta4 = new CurrentAccount(1384, 77773443);
+
+                conta3.Transferir(10000, conta4);
+            }
+            catch (FinancialOperationException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
+                
+                Console.WriteLine("Informações da INNER EXCEPTION (exceção interna):");
+
+                Console.Write(e.InnerException.Message);
+                Console.Write(e.InnerException.StackTrace);
+            }
+
+
 
             try
             {

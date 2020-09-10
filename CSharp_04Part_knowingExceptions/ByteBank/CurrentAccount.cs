@@ -119,7 +119,11 @@ namespace ByteBank
             catch (SaldoInsuficienteException e)
             {
                 ContadorTransferenciasNaoPermitidas++;
-                throw e;
+                /*
+                 * Usando o construtur que possui a sobrecarga
+                 * com uma string de mensagem e com a exceção que originou o problema                 
+                 */
+                throw new FinancialOperationException("Operação não realizada.", e); // INNER exceptions
             }
             
             contaDestino.Depositar(valor);            
