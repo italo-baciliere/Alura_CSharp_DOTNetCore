@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ByteBank
 {
-    class FinancialOperationException : Exception
+    public class FinancialOperationException : Exception
     {
         public FinancialOperationException()
         {

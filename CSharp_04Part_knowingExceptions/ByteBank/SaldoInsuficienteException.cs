@@ -46,7 +46,7 @@ namespace ByteBank
             // : this de um construtor que pede esse argumento.
         {
             Balance = balance;
-            WithdrawalAmount = withdrawalAmount;            
+            WithdrawalAmount = withdrawalAmount;
         }
     }
 }

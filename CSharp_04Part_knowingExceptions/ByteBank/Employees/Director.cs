@@ -15,7 +15,8 @@ namespace ByteBank.Employees
         {
         }
 
-        public bool Authentic(string password)
+        public bool 
+            Authentic(string password)
         {
             return Password == password;
         }
