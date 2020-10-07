@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oOnFIlM3yrwVAmXzmol/P8EQJb00HVm+xTvqHMXcLteqgInmqn98T+CjoIHkdX5KndwessB6CDSYj55ciyOstg==",
+  "dgSpecHash": "Frj8XofRpoX0JFejgBZzPVZLexyvg3eHSY7ulsFmFqIA3/ROI+MAeALUoXc1HOHneXIHY0OK68tsubPWn0cHRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
+  "projectFilePath": "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

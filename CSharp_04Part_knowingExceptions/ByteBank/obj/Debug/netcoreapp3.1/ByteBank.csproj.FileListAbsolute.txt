@@ -11,3 +11,16 @@ C:\Users\italo\EspacoDeTrabalho\06_CSharp\Alura_CSharp_DOTNetCore\CSharp_04Part_
 C:\Users\italo\EspacoDeTrabalho\06_CSharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.dll
 C:\Users\italo\EspacoDeTrabalho\06_CSharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.pdb
 C:\Users\italo\EspacoDeTrabalho\06_CSharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.genruntimeconfig.cache
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.exe
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.deps.json
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.runtimeconfig.json
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.runtimeconfig.dev.json
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.dll
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\bin\Debug\netcoreapp3.1\ByteBank.pdb
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.csprojAssemblyReference.cache
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.AssemblyInfoInputs.cache
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.AssemblyInfo.cs
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.csproj.CoreCompileInputs.cache
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.dll
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.pdb
+D:\C_Sharp\Alura_CSharp_DOTNetCore\CSharp_04Part_knowingExceptions\ByteBank\obj\Debug\netcoreapp3.1\ByteBank.genruntimeconfig.cache

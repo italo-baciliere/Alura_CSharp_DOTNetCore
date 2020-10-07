@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj": {}
+    "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj": {
+    "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
+        "projectUniqueName": "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
         "projectName": "ByteBank",
-        "projectPath": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
+        "projectPath": "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\ByteBank.csproj",
         "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\italo\\EspacoDeTrabalho\\06_CSharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\obj\\",
+        "outputPath": "D:\\C_Sharp\\Alura_CSharp_DOTNetCore\\CSharp_04Part_knowingExceptions\\ByteBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
