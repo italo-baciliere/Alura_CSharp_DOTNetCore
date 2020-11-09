@@ -1,0 +1,6 @@
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csprojAssemblyReference.cache
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Users\italo\OneDrive\Documentos\C Sharp\Alura_CSharp_DOTNetCore\CSharp Parte 05 - Bibliotecas DLLs - Documentacao - NuGet\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb

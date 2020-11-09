@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace ByteBank.Employees
+namespace ByteBank.Modelos.Employees
 {
     class Designer : Employee // Herança -> Director herda tudo que a classe Employee tem
                               // When instantiating a Designer object, an Employee object is automatically instantiated.
